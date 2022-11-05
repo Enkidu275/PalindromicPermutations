@@ -2,6 +2,8 @@ import kotlin.collections.MutableList
 fun main(args: Array<String>)
 {
     superpermutation(7, true)
+    //I do not have a GUI for this project. Simply change this number in code to use it.
+    //I wouldn't recommend anything higher than 14, as the size will be over a million.
 }
 fun superpermutation(values: Int, info: Boolean): MutableList<Int>
 {
